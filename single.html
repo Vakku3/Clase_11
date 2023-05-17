@@ -27,7 +27,7 @@
                 backdrop-filter: blur(0.5rem);
             }
             footer {
-                background: #a67788;
+                background: #D2A262;
             }
         </style>
         <title>Nombre Apellido</title>
@@ -123,7 +123,7 @@
                 //un forEach para cada foto del trabajo
                 data[n].fotos.forEach((x) => {
                     document.querySelector("#trabajos").innerHTML +=
-                        '<div class="col"><img src="' +
+                        '<div class="col"><img src="images/' +
                         x +
                         '" class="w-100 rounded shadow-sm"></div>';
                 });
